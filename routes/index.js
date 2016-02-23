@@ -3,11 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-<<<<<<< HEAD
-  res.render('index', { title: 'Express' });
-});
 
-=======
   res.render('index', { 
       title: 'First Express Page',
         message: 'This works pretty well so far'});
@@ -22,5 +18,4 @@ router.get('/random', function(req, res, next) {
 });
 
 // make this public so the rest of app can see it
->>>>>>> 48f3afeb17edc094909719f9e70830692e497196
 module.exports = router;
